@@ -11,10 +11,10 @@ const Main = () => {
   return (
     <div id="main">
       <div className='container'>
-      <img src={reactLogo} className="App-logo react-logo" alt="logo" />
+      <img src={reactLogo} className="react-logo" alt="logo" />
       <img src={redisLogo} className="App-logo redis-logo" alt="logo" />
       <img src={nodeLogo} className="App-logo node-logo" alt="logo" />
-      <img src={graphqlLogo} className="App-logo graphql-logo" alt="logo" />
+      <img src={graphqlLogo} className="graphql-logo" alt="logo" />
       <img src={dockerLogo} className="App-logo docker-logo" alt="logo" />
       <img src={mongoLogo} className="App-logo mongo-logo" alt="logo" />
       <img src={psqlLogo} className="App-logo psql-logo" alt="logo" />

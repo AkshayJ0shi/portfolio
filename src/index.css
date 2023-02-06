@@ -4,8 +4,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(7, 7, 7);
+
   color: white;
+  /* Created with https://www.css-gradient.com */
+background: #0196B1;
+background: -webkit-linear-gradient(right, #014db1, #010101);
+background: -moz-linear-gradient(right, #014db1, #010101);
+background: linear-gradient(to left, #014db1, #010101);
 }
 
 a{

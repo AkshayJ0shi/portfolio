@@ -2,6 +2,7 @@ import React from 'react'
 import "../index.css"
 import download from "../data/images/download.png"
 import letter from "../data/letter.pdf"
+import { Box } from '@chakra-ui/react'
 
 const Navbar = () => {
   return (

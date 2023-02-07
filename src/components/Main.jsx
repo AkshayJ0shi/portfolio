@@ -6,7 +6,6 @@ import psqlLogo from "./postgresql.svg"
 import nodeLogo from "./node.svg"
 import reactLogo from "./react.svg"
 import redisLogo from "./redis.svg"
-import { Box } from '@chakra-ui/react'
 
 const Main = () => {
   return (
@@ -19,7 +18,11 @@ const Main = () => {
           <img src={dockerLogo} className="App-logo docker-logo" alt="logo" />
           <img src={mongoLogo} className="App-logo mongo-logo" alt="logo" />
           <img src={psqlLogo} className="App-logo psql-logo" alt="logo" />
-          <div className="line anim-typewriter">Hi, I am Akshay</div>
+          {/* <div className="line anim-typewriter">Hi, I am Akshay</div> */}
+          <div className="type2">
+            <p>Hi, I am Akshay</p>
+
+          </div>
           <div className="line2 fadeIn">I am a Full Stack Developer</div>
           <div className="line3 fadeIn">I mainly use React, Express and NestJS</div>
           <div className="line4 ">Check out my Projects</div>

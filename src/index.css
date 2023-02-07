@@ -82,7 +82,7 @@ a{
   justify-content: center;
 }
 
-.line {
+/* .line {
   width: 16em;
   margin: 0 auto 30px auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -121,7 +121,7 @@ a{
   to {
         border-right-color: transparent;
   }
-}
+} */
 
 /* full stack developer line */
 @keyframes fadeIn {
@@ -326,4 +326,49 @@ a{
 .graphql-logo{
   animation: spin infinite 5s ease-in-out;
   height: 50px;
+}
+
+/* MAIN INTRO TYPEWRITER ANIMATION */
+
+.type2{
+  display: flex;
+  justify-content: center;
+}
+
+.type2 p{
+  text-align: center;
+  font-size: 50px;
+
+  border-right: solid 2px white;
+
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+
+  animation: 
+    type3 2s steps(15) 1s forwards,
+    blink 0.5s steps(1) infinite;
+  
+}
+
+@keyframes type3 {
+  to { width: 12ch; }
+}
+
+@keyframes blink {
+  from { border-color: transparent; }
+  50% { border-color: white; }
+  to { border-color: transparent; }
+}
+
+@media (max-width:500px) {
+  .type2 p{
+    font-size: 40px;
+  }
+}
+
+@media (max-width:395px) {
+  .type2 p{
+    font-size: 35px;
+  }
 }
